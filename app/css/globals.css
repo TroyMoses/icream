@@ -1,0 +1,232 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hamburger Menue */
+.hamburger {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+    position: relative;
+}
+
+.hero {
+    background-image: url(../../components/images/carousel-1.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    
+}
+
+.product1{
+    background-image: url(../../components/images/product-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: inherit;
+}
+.product5{
+    background-image: url(../../components/images/portfolio-6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: inherit;
+}
+
+.product2{
+    background-image: url(../../components/images/product-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: inherit;
+}
+
+.product6{
+    background-image: url(../../components/images/portfolio-3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: inherit;
+}
+
+.product7{
+    background-image: url(../../components/images/product-5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: inherit;
+}
+
+.product8{
+    background-image: url(../../components/images/portfolio-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: inherit;
+}
+
+.product3{
+    background-image: url(../../components/images/product-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: inherit;
+}
+
+.product4{
+    background-image: url(../../components/images/product-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: inherit;
+}
+
+.products {
+    background-image: url(../../components/images/promotion.jpg);
+    height: 600px;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    background: darkslategrey;
+    transform: rotate(0);
+    transition: all 0.5s;
+}
+
+.hamburger-middle {
+    transform: translateY(7px);
+}
+
+.hamburger-bottom {
+    transform: translateY(14px);
+}
+
+.open {
+    transform: rotate(90deg);
+    transform: translateY(0px);
+}
+
+.open .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle {
+    display: none;
+}
+
+.open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+/* .read-more-text {
+    display: none;
+}
+
+.read-more-text2 {
+    display: none;
+}
+
+.read-more-text--show {
+    display: inline;
+}
+
+.read-more-text--hide {
+    display: none;
+}
+
+.MoreBtnHidden {
+    display: none;
+}
+
+.read-less-btn {
+    display: none;
+}
+
+.LessBtnShow {
+    display: inline;
+} */
+
+
+#ch {
+    display: none;
+} 
+
+#ch:checked ~ .read-more-text {
+    display: block;
+}
+
+#ch:checked ~ label {
+    display: none;
+}
+
+#ch2 {
+    display: none;
+} 
+
+#ch2:checked ~ .read-more-text {
+    display: block;
+}
+
+#ch2:checked ~ label {
+    display: none;
+}
+
+#ch3 {
+    display: none;
+} 
+
+#ch3:checked ~ .read-more-text {
+    display: block;
+}
+
+#ch3:checked ~ label {
+    display: none;
+}
+
+#ch4 {
+    display: none;
+} 
+
+#ch4:checked ~ .read-more-text {
+    display: block;
+}
+
+#ch4:checked ~ label {
+    display: none;
+}
+
+#ch5 {
+    display: none;
+} 
+
+#ch5:checked ~ .read-more-text {
+    display: block;
+}
+
+#ch5:checked ~ label {
+    display: none;
+}
+
+#ch6 {
+    display: none;
+} 
+
+#ch6:checked ~ .read-more-text {
+    display: block;
+}
+
+#ch6:checked ~ label {
+    display: none;
+}
+
+
+.read-more-text {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    cursor: pointer;
+}
