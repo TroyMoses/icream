@@ -86,7 +86,7 @@ export default function Home() {
                         <span className='bg-pink-500 px-3 rounded-lg'>APEX ICE-CREAM PARLOUR</span>
                     </h2>
                     <h1 className=' font-serif font-semibold text-6xl md:text-7xl'>
-                        <span className='bg-pink-500 px-3 rounded-lg'>DELICIOUS AND YUMMY!</span>
+                        <span className='bg-pink-500 px-3 rounded-lg'>DELICIOUS AND YUMMY</span>
                     </h1>
                     <button className='text-white text-lg md:text-xl px-8 rounded-full py-3 hover:bg-pink-600 bg-pink-500'>
                         Learn More
