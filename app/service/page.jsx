@@ -5,11 +5,12 @@ import Link from 'next/link';
 import axios from 'axios';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
-import bgImage from '../components/images/carousel-1.jpg'
-import aboutImage from '../components/images/about.jpg'
-import promotionImage from '../components/images/promotion.jpg'
+import bgImage from '../../components/images/carousel-1.jpg'
+import aboutImage from '../../components/images/about.jpg'
+import promotionImage from '../../components/images/promotion.jpg'
 
-import Anime from '../components/Anime.jsx';
+
+import Anime from '../../components/Anime.jsx';
 
 export default function Services() {
 
